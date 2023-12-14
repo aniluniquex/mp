@@ -1,0 +1,6 @@
+X=[0 4 2 5];
+Y=[1 3 0 -2];
+plot(X,Y,'*-');
+xlabel('-- x-axis -->')
+ylabel('-- y-axis -->')
+title('Graph')

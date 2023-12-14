@@ -1,0 +1,8 @@
+srate=11025;
+nsamp=2*srate; 
+t=0:2/nsamp:2; 
+f=250:750/nsamp:1000; 
+y=sin(2*pi*f.*t); 
+small.
+sound(y,srate);
+pspectrum(y,nsamp)
