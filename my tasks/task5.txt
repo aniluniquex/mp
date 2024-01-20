@@ -1,0 +1,3 @@
+fable={'once';'upon';'a';'time';'there';'lived';'three';'bears'};
+sorted=sortrows(fable);
+disp(sorted);
